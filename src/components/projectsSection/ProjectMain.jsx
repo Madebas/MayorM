@@ -3,27 +3,30 @@ import ProjectText from './ProjectText'
 import SingleProject from './SingleProject'
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import digitalmarketing from "../../../public/images/digital_marketing.jpg";
+import BoldSign from "../../../public/images/Boldsign.jpg";
+import developer from "../../../public/images/developer.avif";
 
 const projects = [
     {
         name:"Web Development",
         year:"Mar2025",
         align:"right",
-        image:"/images/digital marketing.jpg",
+        image: digitalmarketing,
         link:"#"
     },
     {
         name:"BoldSign Testing",
         year:"Sep2024",
         align:"left",
-        image:"/images/Boldsign.jpg",
+        image: BoldSign,
         link:"#"
     },
     {
         name:"Data Analysis",
         year:"Aug2023",
         align:"right",
-        image:"/images/developer.avif",
+        image: developer,
         link:"#"
     },
 ];

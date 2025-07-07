@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import profilePic from "../../../public/images/profile_picture.jpg"; // Adjust the path as necessary
 
 function HeroPic() {
   const techStack = [
@@ -26,7 +27,7 @@ function HeroPic() {
       <div className="relative" style={{ width: "288px", height: "288px" }}>
         {/* Profile Image */}
         <motion.img 
-          src="/images/profile picture.JPG" 
+          src={profilePic}  
           alt="Madeba Simon" 
           className="rounded-full shadow-2xl w-full h-full object-cover border-[3px] border-white/20 group-hover:border-cyan transition-all duration-500 z-10 relative"
           whileHover={{ scale: 1.05 }}
